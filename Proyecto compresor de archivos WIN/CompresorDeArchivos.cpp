@@ -194,25 +194,6 @@ void decompressFile(const string& compressedFilename) {
 
 
 int main(int argc, char* argv[]) {
-    /*string inputPath = "gatito.txt";  // Cambia esto a la ruta que deseas comprimir
-    //  string outputFilename = "outputTest2.gzip";
-    string baseName = fs::path(inputPath).stem().string(); //fs::path(inputPath).filename().string()
-    baseName[0] = isalpha(baseName[0]) ? toupper(baseName[0]) : baseName[0];
-    string outputFilename = "comprimido" + baseName + ".gzip";
-
-    if (isDirectory(inputPath)) {
-        compressDirectory(inputPath, outputFilename);
-    }
-    else {
-        string fileData = readFile(inputPath);
-        writeCompressedFile(inputPath, outputFilename, fileData);
-    }
-
-    system("pause");
-
-    // Descompresión
-    decompressFile(outputFilename);*/
-    
     if (argc > 2) {
         char* op = argv[1]; // 1 para comprimir, 2 para descomprimir
         switch (*op)
