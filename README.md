@@ -76,7 +76,7 @@ Si se obtiene esta salida, quiere decir que ya se generó el ejecutable exitosam
 
 ## Tutorial de uso en Windows
 
-En la carpeta [Proyecto Compresor de Archivos WIN](./Proyecto%20compresor%20de%20archivos%20WIN) encontrará los archivos necesarios para ejecutar el programa en Linux, se sugiere tener VSCode para la ejecución.
+En la carpeta [Proyecto Compresor de Archivos WIN](./Proyecto%20compresor%20de%20archivos%20WIN) encontrará los archivos necesarios para ejecutar el programa en Windows, se sugiere tener VSCode para la ejecución.
 
 Como compilador se sugiere usar MSVC, si no lo tiene instalado, puede seguir el siguiente tutorial: [Instalar C++ en VSCode con MSVC](https://code.visualstudio.com/docs/cpp/config-msvc)
 
